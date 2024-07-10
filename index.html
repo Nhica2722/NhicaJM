@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OWNDAYS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="welcome.js" defer></script>
+    <script src="index.js" defer></script>
+  </head>
+<body>
+
+  <!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg fixed-top auto-hiding-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="#home">O W N D A Y S</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacts</a>
+                </li>
+                <li class="nav-item d-flex align-items-center">
+                    <a id="loginicon" href="#"><img src="./assets/icons/user.png" alt="Log-in" class="login"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+  <!--END OF NAVBAR-->
+
+  <div class="container">
+    <div class="welcome-message text-center">
+    </div>
+  </div>
+
+  <!--HOME-->
+  <section id="home">
+    <div class="container">
+    </div>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/home/BG2.png" class="d-block w-100" alt="BG1">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/home/BG3.png" class="d-block w-100" alt="BG2">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/home/BG4.png" class="d-block w-100" alt="BG3">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/home/BG5.png" class="d-block w-100" alt="BG4">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--END OF HOME-->
+
+  <!--PRODUCTS-->
+  <section id="products">
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">SHOP BY CATEGORY</h1>
+      <br>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/products/mens bg.jpg" class="card-img-top" alt="men">
+            <div class="card-body">
+              <br>
+              <h1 class="card-title">MEN'S EYEWEAR</h1>
+              <a href="men.html" class="card-btn">view</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/products/womens bg.jpg" class="card-img-top" alt="women">
+            <div class="card-body">
+              <br>
+              <h1 class="card-title">WOMEN'S EYEWEAR</h1>
+              <a href="women.html" button class="card-btn">view</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="./assets/products/shades bg.png" class="card-img-top" alt="shades">
+            <div class="card-body">
+              <br>
+              <h1 class="card-title">SUN GLASSES</h1>
+              <a href="shades.html" button class="card-btn">view</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!--END OF PRODUCTS-->
+
+  <!--ABOUT US-->
+  <section id="about">
+    <div class="container">
+    <div class="row align-items-center">
+      <div class="col">
+          <img src="./assets/about/ABOUT-US-1.jpg" alt="About Us" class="img-fluid">
+      </div>
+      <div class="col text-col">
+      <h1>All for Comfortability</h1>
+      <p>Founded in 1989, OWNDAYS aims to process a pair of quality glasses within 20 minutes from optometry to delivery. All glasses displayed in shop are original brands that are designed and manufactured by OWNDAYS that come with UV protection and dust-resistant coating.</p>
+      <p>The origin of the name of our company is a combination of “own days” and pronunciation of the word “on” as in on/off.We hope that we can make you feel refreshed day after day by wearing our glasses. In order to let all the people related to OWNDAYS as happy as possible, and getting even happier day by day, we will keep providing our best glasses.</p>
+      <a href="./learnMore.html"><button type="button" class="btn btn-dark btn-large">Learn more</button></a>
+    </div>
+    </div>
+    </div>
+    </section>
+  </section>
+  <!--END OF ABOUT US-->
+
+  <!--CONTACTS-->
+  <section id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        
+        <!-- Newsletter Signup -->
+        <div class="col-lg-4">
+          <div class="form-box">
+            <h1 class="text-center">SIGN UP FOR OUR NEWSLETTER</h1>
+            <form id="newsletter-form" class="d-flex justify-content-center">
+              <input type="email" class="form-control" id="newsletter-email" name="email" placeholder="Enter email" required>
+              <button type="submit" class="btn btn-dark btn-large ms-2">Submit</button>
+            </form>
+            <br>
+            <p>
+              <a href="https://www.facebook.com/owndays.ph/"><img src="./assets/icons/fb.png" class="icon" alt="Facebook"></a>
+              <a href="https://www.instagram.com/owndaysph/"><img src="./assets/icons/ig.png" class="icon" alt="Instagram"></a>
+              <a href="https://www.tiktok.com/@owndaysph"><img src="./assets/icons/tiktok.png" class="icon" alt="TikTok"></a>
+              <a href="https://www.youtube.com/@owndaysthailand"><img src="./assets/icons/yt.png" class="icon" alt="YouTube"></a>
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-5">
+          
+          <div class="col-md-4">
+            <div class="content">
+              <h1>CONTACT US</h1>
+              <p>0917-701-6030</p>
+              <p>Operating Hours:</p>
+              <p>9:30 - 12:00</p>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="content">
+              <h1>SHOP</h1>
+              <a href="./men.html"><p>Men</p></a>
+              <a href="./women.html"><p>Women</p></a>
+              <a href="./shades.html"><p>Sunglasses</p></a>
+            </div>
+          </div>
+
+          <!-- SOCIALS -->
+          <div class="col-md-4">
+            <div class="content">
+              <h1>Us</h1>
+              <a href="#about"><p>About</p></a>
+                <a href="#about"><p>History</p></a>
+                  <a href="./learnMore.html"><p>OWNDAYS Eye Camp</p></a>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </section>
+  <!--END OF CONTACTS-->
+
+</body>
+</html>

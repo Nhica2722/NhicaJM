@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's eyewear</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-men.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const buttons = document.querySelectorAll('.purchase-btn');
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    if (confirm('Confirm Purchase?')) {
+                        alert('Purchase confirmed!');
+                    }
+                });
+            });
+        });
+    </script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg fixed-top auto-hiding-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html">O W N D A Y S</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#contact">Contacts</a>
+                    </li>
+                    <li class="nav-item d-flex align-items-center">
+                        <a href="./login.html"><img src="./assets/icons/user.png" alt="Log-in" class="login"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   <!--END OF NAVBAR-->
+
+   <!--MEN-->
+   <section id="men">
+    <div class="container">
+        <h1>Men's Eyewear</h1>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="img-container position-relative">
+                        <img src="assets/men/M1.jpg" alt="Men's Eyewear 1" class="image img-fluid">
+                        <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                            <p class="caption">₱ 5,990</p>
+                            <button class="purchase-btn btn btn-primary mt-2">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="img-container position-relative">
+                        <img src="assets/men/M2.jpg" alt="Men's Eyewear 2" class="image img-fluid">
+                        <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                            <p class="caption">₱ 5,990</p>
+                            <button class="purchase-btn btn btn-primary mt-2">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="img-container position-relative">
+                        <img src="assets/men/M3.jpg" alt="Men's Eyewear 3" class="image img-fluid">
+                        <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                            <p class="caption">₱ 5,490</p>
+                            <button class="purchase-btn btn btn-primary mt-2">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="img-container position-relative">
+                        <img src="assets/men/M4.jpg" alt="Men's Eyewear 4" class="image img-fluid">
+                        <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                            <p class="caption">₱ 2,500</p>
+                            <button class="purchase-btn btn btn-primary mt-2">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="img-container position-relative">
+                        <img src="assets/men/M5.jpg" alt="Men's Eyewear 5" class="image img-fluid">
+                        <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                            <p class="caption">₱ 4,550</p>
+                            <button class="purchase-btn btn btn-primary mt-2">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="img-container position-relative">
+                        <img src="assets/men/M6.jpg" alt="Men's Eyewear 6" class="image img-fluid">
+                        <div class="overlay d-flex flex-column justify-content-center align-items-center">
+                            <p class="caption">₱ 2,000</p>
+                            <button class="purchase-btn btn btn-primary mt-2">Purchase</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!--END OF MEN-->
+
+    <!--CONTACTS-->
+    <section id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+            
+            <!-- Newsletter Signup -->
+            <div class="col-lg-4">
+                <div class="form-box">
+                <h1 class="text-center">SIGN UP FOR OUR NEWSLETTER</h1>
+                <form id="newsletter-form" class="d-flex justify-content-center">
+                    <input type="email" class="form-control" id="newsletter-email" name="email" placeholder="Enter email" required>
+                    <button type="submit" class="btn btn-dark btn-large ms-2">Submit</button>
+                </form>
+                <br>
+                <p>
+                    <a href="https://www.facebook.com/owndays.ph/"><img src="./assets/icons/fb.png" class="icon" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/owndaysph/"><img src="./assets/icons/ig.png" class="icon" alt="Instagram"></a>
+                    <a href="https://www.tiktok.com/@owndaysph"><img src="./assets/icons/tiktok.png" class="icon" alt="TikTok"></a>
+                    <a href="https://www.youtube.com/@owndaysthailand"><img src="./assets/icons/yt.png" class="icon" alt="YouTube"></a>
+                </p>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                
+                <div class="col-md-4">
+                <div class="content">
+                    <h1>CONTACT US</h1>
+                    <p>0917-701-6030</p>
+                    <p>Operating Hours:</p>
+                    <p>9:30 - 12:00</p>
+                </div>
+                </div>
+                
+                <div class="col-md-4">
+                <div class="content">
+                    <h1>SHOP</h1>
+                    <a href="./men.html"><p>Men</p></a>
+                    <a href="./women.html"><p>Women</p></a>
+                    <a href="./shades.html"><p>Sunglasses</p></a>
+                </div>
+                </div>
+
+                <!-- SOCIALS -->
+                <div class="col-md-4">
+                <div class="content">
+                    <h1>Us</h1>
+                    <a href="./index.html#about"><p>About</p></a>
+                    <a href="./index.html#about"><p>History</p></a>
+                        <a href="./learnMore.html"><p>OWNDAYS Eye Camp</p></a>
+                </div>
+                </div>
+            </div> 
+            </div>
+        </div>
+    </section>
+    <!--END OF CONTACTS-->
+    
+</body>
+</html>
